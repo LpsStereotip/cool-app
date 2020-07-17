@@ -19,7 +19,9 @@
         "nsis"
       ],
       "icon": "src/logo-w-trans-full-small.ico",
-      "requestedExecutionLevel": "requireAdministrator"
+      "certificateFile": "mycert.pfx",
+      "certificatePassword": "May2020",
+      "publisherName": "Labshare"
     },
     "nsis": {
       "installerIcon": "src/logo-w-trans-full-small.ico",
